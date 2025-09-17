@@ -30,11 +30,13 @@ It allows users to add, edit, delete, and mark tasks as completed, while storing
 
 ```bash
 .
-├── components    # Reusable UI components
-├── pages         # Next.js pages
-├── lib           # Firebase config and utilities
-├── styles        # Global styles
-└── package.json  # Dependencies and scripts
+├── app          # Next.js app directory
+├── components   # Reusable UI components
+├── lib          # Firebase config and utilities
+├── providers    # Context providers
+├── schemas      # Validation or database schemas
+├── styles       # Global styles
+└── package.json # Dependencies and scripts
 ```
 
 ---
@@ -78,12 +80,6 @@ yarn dev
 ```
 
 Visit **http://localhost:3000** 🚀  
-
----
-
-## 📸 Screenshots  
-
-(Add some screenshots of your app here)  
 
 ---
 
